@@ -1,2 +1,2 @@
-# powershell-spiekbrief
-Spiekbrief voor exmamen powershell
+# powershell-RoC
+Informatie voor exmamen powershell
