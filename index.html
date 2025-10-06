@@ -195,6 +195,9 @@ Get-ADUser -Filter * -Properties Department,Title |
             <div><a href="https://cdn.comparitech.com/wp-content/uploads/2018/08/Comparitech-Powershell-cheatsheet.pdf">Comparitech cheat sheet (PDF)</a></div>
             <div><a href="https://practicalpowershell.com/wp-content/uploads/2020/04/PowerShellQuickReference-PowerShell7.0-v1.03.pdf">Practical PowerShell quick reference (PDF)</a></div>
             <div><a href="https://www.ninjaone.com/blog/windows-powershell-commands-cheat-sheet/">NinjaOne commands cheat sheet</a></div>
+            <div><a href="https://www.boom.nl/media/44/59131_ie_powershell-2021-druk.pdf">Boom PS introductie</a></div>
+            <div><a href="https://www.guru99.com/powershell-tutorial.html">Guru PS tutorial</a></div>
+            <div><a href="https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_foreach?view=powershell-7.5">Microsoft Foreach</a></div>
           </div>
 
           <script>
@@ -207,6 +210,9 @@ Get-ADUser -Filter * -Properties Department,Title |
                 case 'sans': url = `https://www.google.com/search?q=site:cdn.comparitech.com+${q}`; break;
                 case 'practical': url = `https://www.google.com/search?q=site:practicalpowershell.com+${q}`; break;
                 case 'ninjaone': url = `https://www.google.com/search?q=site:ninjaone.com+${q}`; break;
+                case 'boom': url = `https://www.boom.nl/media/44/59131_ie_powershell-2021-druk.pdf+${q}`; break;
+                case 'guru tutorial': url = `https://www.guru99.com/powershell-tutorial.html+${q}`; break;
+                case 'foreach': url = `https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_foreach?view=powershell-7.5+${q}`; break;
                 default: url = `https://www.google.com/search?q=${q}+PowerShell`;
               }
               window.open(url,'_blank');
@@ -232,4 +238,5 @@ Get-ADUser -Filter * -Properties Department,Title |
 </body>
 
 </html>
+
 
